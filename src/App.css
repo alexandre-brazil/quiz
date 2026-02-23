@@ -30,16 +30,16 @@
 }
 
 .quiz-conteudo {
-  width: 60%;
+  width: 55%;
   height: 100%;
-  padding: 0 8%;
+  padding: 0 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .quiz-capa {
-  width: 40%;
+  width: 45%;
   height: 100%;
 }
 
@@ -51,37 +51,37 @@
 
 /* --- TEXTOS --- */
 .quiz-titulo {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   color: #9ca3af;
   text-transform: uppercase;
-  letter-spacing: 4px;
-  margin-bottom: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
 }
 
 .quiz-pergunta {
-  font-size: 64px;
+  font-size: 48px;
   font-weight: 900;
   color: #111827;
   line-height: 1.1;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 /* --- BOTÕES DE ALTERNATIVA --- */
 .quiz-alternativas {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px;
+  gap: 20px;
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .btn-opcao {
   color: white;
   font-weight: bold;
-  font-size: 28px;
-  padding: 40px 20px;
-  border-radius: 16px;
+  font-size: 24px;
+  padding: 30px 15px;
+  border-radius: 12px;
   border: none;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -130,8 +130,8 @@
 
 /* --- CAIXA DE RESULTADO E BOTÃO PRÓXIMA --- */
 .resultado-box {
-  padding: 30px;
-  border-radius: 16px;
+  padding: 20px;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: space-between; /* Texto de um lado, botão do outro */
@@ -139,12 +139,12 @@
 }
 
 .resultado-box h3 {
-  font-size: 32px;
+  font-size: 26px;
   margin-bottom: 5px;
 }
 
 .resultado-box p {
-  font-size: 20px;
+  font-size: 18px;
   color: #374151;
 }
 
@@ -163,11 +163,11 @@
 .btn-proxima {
   background-color: #111827;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
-  padding: 20px 30px;
+  padding: 15px 25px;
   border: none;
-  border-radius: 12px;
+  border-radius: 10px;
   cursor: pointer;
   transition: background 0.2s;
 }
@@ -179,36 +179,36 @@
 /* --- TELA FINAL --- */
 .tela-final {
   background-color: white;
-  padding: 80px;
-  border-radius: 24px;
+  padding: 60px;
+  border-radius: 20px;
   text-align: center;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
   animation: fadeIn 0.5s ease-in-out;
 }
 
 .tela-final h1 {
-  font-size: 64px;
+  font-size: 48px;
   color: #111827;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .tela-final p {
-  font-size: 32px;
+  font-size: 26px;
   color: #4b5563;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .botoes-finais {
   display: flex;
-  gap: 20px;
+  gap: 15px;
   justify-content: center;
 }
 
 .btn-acao {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
-  padding: 20px 40px;
-  border-radius: 16px;
+  padding: 15px 30px;
+  border-radius: 12px;
   border: none;
   cursor: pointer;
   transition: transform 0.2s;
@@ -236,5 +236,46 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* --- MEDIA QUERIES PARA TELAS MENORES (mas ainda desktop) --- */
+@media (max-width: 1366px) {
+  .quiz-conteudo {
+    padding: 0 4%;
+  }
+
+  .quiz-pergunta {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .btn-opcao {
+    font-size: 20px;
+    padding: 25px 15px;
+  }
+
+  .resultado-box h3 {
+    font-size: 22px;
+  }
+
+  .resultado-box p {
+    font-size: 16px;
+  }
+
+  .btn-proxima {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .quiz-pergunta {
+    font-size: 36px;
+  }
+
+  .btn-opcao {
+    font-size: 18px;
+    padding: 20px 10px;
   }
 }
