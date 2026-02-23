@@ -4,7 +4,7 @@ import animais from "../src/assets/animais.jpeg";
 import fungos from "../src/assets/fungos.jpeg";
 import agua_estado from "../src/assets/agua-estado.jpeg";
 import cadeia_alimentar from "../src/assets/cadeia-alimentar.jpeg";
-import logo from "../src/assets/logo.png";
+import logo from "../src/assets/capa-7ano.jpeg";
 
 export const quiz_6ano = [
   // --- 1. Ciclo da Água ---
@@ -213,7 +213,7 @@ export const quiz_7ano = [
     correta: "Ajudar a compreender a história e a evolução da vida na Terra",
   },
   {
-    capacapa: logo,
+    capa: logo,
     titulo: "Organização dos Seres Vivos",
     pergunta:
       "Qual é a estrutura básica e fundamental que forma todos os seres vivos?",
@@ -221,7 +221,7 @@ export const quiz_7ano = [
     correta: "A célula",
   },
   {
-    capacapa: logo,
+    capa: logo,
     titulo: "Organização dos Seres Vivos",
     pergunta:
       "Um conjunto de células semelhantes que trabalham em grupo para realizar a mesma função forma um:",
@@ -229,7 +229,7 @@ export const quiz_7ano = [
     correta: "Tecido",
   },
   {
-    capacapa: logo,
+    capa: logo,
     titulo: "Organização dos Seres Vivos",
     pergunta:
       "O coração, os pulmões e o estômago são exemplos de que nível de organização?",
@@ -237,7 +237,7 @@ export const quiz_7ano = [
     correta: "Órgãos",
   },
   {
-    ccapa: logo,
+    capa: logo,
     titulo: "Sistemas do Corpo Humano",
     pergunta:
       "Que sistema do nosso corpo é responsável por extrair os nutrientes dos alimentos que comemos?",
@@ -250,7 +250,7 @@ export const quiz_7ano = [
     correta: "Sistema Digestivo",
   },
   {
-    ccapa: logo,
+    capa: logo,
     titulo: "Sistemas do Corpo Humano",
     pergunta: "Qual é a principal função do nosso Sistema Respiratório?",
     alternativas: [
@@ -262,7 +262,7 @@ export const quiz_7ano = [
     correta: "Realizar a troca de gases (oxigénio e dióxido de carbono)",
   },
   {
-    ccapa: logo,
+    capa: logo,
     titulo: "Sistemas do Corpo Humano",
     pergunta:
       "O sangue viaja por todo o corpo a transportar oxigénio. Que órgão funciona como a 'bomba' desse sistema?",
@@ -270,7 +270,7 @@ export const quiz_7ano = [
     correta: "Coração",
   },
   {
-    ccapa: logo,
+    capa: logo,
     titulo: "Sistemas do Corpo Humano",
     pergunta:
       "Os ossos e os músculos trabalham em conjunto para formar que sistema do corpo humano?",
@@ -283,7 +283,7 @@ export const quiz_7ano = [
     correta: "Sistema Locomotor",
   },
   {
-    ccapa: logo,
+    capa: logo,
     titulo: "Percebendo o Ambiente",
     pergunta:
       "Que órgão funciona como o grande 'centro de comando' do nosso Sistema Nervoso?",
@@ -291,7 +291,7 @@ export const quiz_7ano = [
     correta: "Cérebro",
   },
   {
-    ccapa: logo,
+    capa: logo,
     titulo: "Percebendo o Ambiente",
     pergunta:
       "Se tocarmos numa panela muito quente, que estruturas enviam rapidamente o sinal de dor para o cérebro?",
@@ -304,7 +304,7 @@ export const quiz_7ano = [
     correta: "Os nervos",
   },
   {
-    ccapa: logo,
+    capa: logo,
     titulo: "Percebendo o Ambiente",
     pergunta:
       "Os órgãos dos sentidos ajudam-nos a interagir com o mundo. Qual é o órgão principal da visão?",
@@ -312,7 +312,7 @@ export const quiz_7ano = [
     correta: "Olhos",
   },
   {
-    ccapa: logo,
+    capa: logo,
     titulo: "Percebendo o Ambiente",
     pergunta:
       "Quando sentimos o cheiro de um bolo no forno, estamos a usar que sentido?",
